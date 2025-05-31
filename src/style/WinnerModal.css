@@ -1,0 +1,43 @@
+.winner-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.winner-content {
+  background: linear-gradient(145deg, #2d2d2d, #1a1a1a);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  border: 1px solid #444;
+}
+
+.winner-content h2 {
+  color: #00aaff;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.winner-content button {
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.8rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.winner-content button:hover {
+  background-color: #0088cc;
+  transform: translateY(-2px);
+}
