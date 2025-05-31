@@ -4,10 +4,10 @@ import { useState } from 'react';
 import { Game } from '@/libs/game';
 import { Board } from '@/components/Gameboard';
 import { Position } from '@/types/game';
-import '../style/Board.css';
-import '../style/Pieces.css';
-import '../style/States.css';
-import '../style/WinnerModal.css';
+import '../style/board.css';
+import '../style/pieces.css';
+import '../style/states.css';
+import '../style/winnerModal.css';
 
 
 

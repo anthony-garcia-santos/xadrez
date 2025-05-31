@@ -3,9 +3,9 @@ import { Game } from '@/libs/game';
 import { Position, PlayerColor } from '@/types/game';
 import { getPossibleMoves } from './helpers';
 import { renderPiece } from './renderpieces';
-import '../style/Board.css';
-import '../style/Pieces.css';
-import '../style/States.css';
+import '../style/board.css';
+import '../style/pieces.css';
+import '../style/states.css';
 
 interface BoardProps {
   game: Game;
