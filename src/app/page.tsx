@@ -1,13 +1,13 @@
 'use client';
 
 import { useState } from 'react';
-import { Game } from '@/libs/game';
-import { Board } from '@/components/Gameboard';
-import { Position } from '@/types/game';
+import { Game } from '../libs/game';
+import { Board } from '../components/gameboard';
+import { Position } from '../types/game';
 import '../style/board.css';
 import '../style/pieces.css';
 import '../style/states.css';
-import '../style/winnerModal.css';
+import '../style/winner-modal.css'
 
 
 
