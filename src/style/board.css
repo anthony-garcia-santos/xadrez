@@ -5,15 +5,17 @@
   background-color: #000;
   padding: 6px;
   border-radius: 6px;
-  width: max-content;
+  width: 100%;
+  max-width: min(90vmin, 512px); /* adapta melhor em telas menores */
   margin: 0 auto;
   border: 1px solid #000;
   filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3));
+  aspect-ratio: 1 / 1; /* mantém proporção quadrada */
 }
 
 .cell {
-  width: 64px;
-  height: 64px;
+  aspect-ratio: 1 / 1; /* faz com que a célula seja sempre quadrada */
+  width: 100%;         /* ocupa toda a largura da coluna */
   display: flex;
   align-items: center;
   justify-content: center;

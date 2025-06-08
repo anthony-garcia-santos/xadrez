@@ -24,15 +24,17 @@
   color: #00aaff;
   margin-bottom: 1.5rem;
   font-size: 2rem;
+    font-size: clamp(1.5rem, 5vw, 2rem);
+
 }
 
 .winner-content button {
   background-color: #00aaff;
   color: white;
   border: none;
-  padding: 0.8rem 1.8rem;
+  padding: clamp(0.6rem, 3vw, 0.8rem) clamp(1.2rem, 5vw, 1.8rem);
   border-radius: 6px;
-  font-size: 1rem;
+  font-size: clamp(0.9rem, 4vw, 1rem);
   cursor: pointer;
   transition: all 0.3s ease;
 }
